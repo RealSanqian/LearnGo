@@ -43,4 +43,13 @@ func main() {
 		}
 	}
 	fmt.Println("2d: ", twoD)
+
+	for a, v := range twoD {
+		for j, vl := range v {
+			fmt.Printf("2索引:%d,值:%d\n", j, vl)
+			fmt.Printf("2索引:%d,值:%d\n", j, vl)
+
+		}
+		fmt.Printf("1索引%d,值%d\n", a, v)
+	}
 }
